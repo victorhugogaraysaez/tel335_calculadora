@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/cifra_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="cifra 01"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/cifra_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="cifra 02"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:text="resultado"
+        android:textSize="34sp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/suma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sumar"
+                android:text="suma" />
+
+            <Button
+                android:id="@+id/resta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="restar"
+                android:text="resta" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/multiplicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="multiplicar"
+                android:text="@string/multiplicacion" />
+
+            <Button
+                android:id="@+id/division"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="dividir"
+                android:text="@string/division" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
