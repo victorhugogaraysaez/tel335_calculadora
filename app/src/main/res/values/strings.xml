@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Live calculadora</string>
     <string name="cifra_02">cifra_02</string>
-    <string name="resultado">resultado</string>
+    <string name="resultado">resultado…</string>
     <string name="division">division</string>
     <string name="multiplicacion">multiplicacion</string>
     <string name="suma">suma</string>
