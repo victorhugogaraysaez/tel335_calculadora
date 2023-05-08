@@ -1,4 +1,5 @@
-# calculadora_debug
+# tel335_calculadora
 primer commit
+este proyecto esta con tal vez un exceso de mensajes de consola
 
-este link sirve para que se pueda hacer clone y editar los archivos con aportes de valor agregado y cumplir con la tarea 2 y 4 del modulo 03
+si asi lo considera haga las mejoras corraspondientes al manifest, a la main activity y al layout
