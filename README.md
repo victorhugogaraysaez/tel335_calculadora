@@ -1,4 +1,7 @@
 # tel335_calculadora
+
+Revisado el 25/04/2024
+
 primer commit
 este proyecto esta con tal vez un exceso de mensajes de consola
 
